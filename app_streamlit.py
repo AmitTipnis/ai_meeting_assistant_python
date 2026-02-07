@@ -19,6 +19,7 @@ meeting_text = st.text_area("Meeting Notes",
 height = 250,
 placeholder="Example:\n Amit will prepare budget report by Friday.\nAkshay should contact the vendor next week."
                             )
+
 #Process button
 if st.button("Process Meeting"):
     if meeting_text == "":
