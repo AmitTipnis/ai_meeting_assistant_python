@@ -9,13 +9,14 @@ Python project to use meeting transcripts and create MOM, action and task list.
 
   ##Tech Stack
   - Python
-  - spaCy (NLP)
+  - #spaCy (NLP) -- removed for Issue #1 - doesnt support python 3.14 or greater
+  - re
   - Dateparser
  
 ##How to Run
 #1. Install dependencies
 pip install -r requirements.txt
-python -m spacy dpwnload en_core_web_sm
+#python -m spacy dpwnload en_core_web_sm
 
 #2. Run
 python app.py
