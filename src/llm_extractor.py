@@ -1,7 +1,8 @@
 import json
 from openai import OpenAI
 
-API_KEY_OPENAI=""
+API_KEY_OPENAI="ADD-YOUR-API-KEY"
+
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=API_KEY_OPENAI
