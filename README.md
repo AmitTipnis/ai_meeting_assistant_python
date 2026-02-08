@@ -16,8 +16,10 @@ Python project to use meeting transcripts and create MOM, action and task list.
 ##How to Run
 #1. Install dependencies
 pip install -r requirements.txt
-#python -m spacy dpwnload en_core_web_sm
+#python -m spacy dpwnload en_core_web_sm -- Issue #1
 
 #2. Run
 python app.py
   
+#3. Run UI version
+streamlit run app_streamlit.py
