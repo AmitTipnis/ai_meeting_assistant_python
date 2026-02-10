@@ -1,3 +1,6 @@
 dateparser
 streamlit
+openai
+openrouter
+
 
